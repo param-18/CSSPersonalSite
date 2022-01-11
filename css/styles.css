@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 5px auto 0 auto;
+  font-family: 'Moon Dance', cursive;
+  font-size: 5.625rem;
+/*  line-height: 2; */
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Mukta', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Mukta', sans-serif;
+  font-size: 1.5625rem;
+}
+
+.top-container {
+  position: relative;
+   background-color: #E3FDFD;
+   padding-top: 30px;
+}
+
+
+.bottom-container{
+background-color:  #66BFBF;
+padding: 20px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:  300px;
+  top: 15px;
+}
+
+.bottom-cloud{
+position: absolute;
+bottom: 300px;
+left: 100px;
+}
+
+.profile-pic{
+  width: 18%;
+  height: 18%;
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+.skill-android{
+  float: left;
+  width:20%;
+  height: 20%;
+}
+.skill-java{
+  float: right;
+  width:20%;
+  height: 20%;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+.btn {
+  margin-bottom:
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, 2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, 2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, 2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, 2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, 2bc4ad);
+  text-decoration: none;
+}
+
+.contact-me{
+  margin-bottom: 80px;
+}
+
+.footer-cr {
+  color: #EAF6F6;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 20px;
+}
